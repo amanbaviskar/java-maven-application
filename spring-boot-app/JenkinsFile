@@ -70,7 +70,7 @@
 pipeline {
 agent any
 
-```
+
 environment {
     SONAR_URL = "http://35.154.32.233:9000"
     DOCKER_IMAGE = "amanbaviskar477/ultimate-cicd-pipeline:${BUILD_NUMBER}"
@@ -159,7 +159,6 @@ post {
         echo 'Pipeline failed'
     }
 }
-```
 
 }
 
